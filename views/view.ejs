@@ -1,0 +1,42 @@
+<!<!DOCTYPE html>
+<html>
+
+<head>
+    <title>view</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <section id="view">
+
+    <nav class="topnav">
+        <ul>
+            <li><a href="/">Add Message</a></li>
+            <li><a href="/view">View Message</a></li>
+        </ul>
+    </nav>
+        <div>
+            <h2>Your Message</h2>
+            <section id="view_message">
+                
+                <% for (let i=0; i < myResult.length; i++) { %>
+                <h3><%= myResult[i].title %></h3>
+                <p><%= myResult[i].body %></p>
+                <% } %>
+                
+            </section>
+
+        </div>
+    </section>
+    <footer id="footer">
+        <p>Created by: Trinh Nguyen</p>
+        <p>Contact information: <a href="mailto:trinhnguyen@test.com">
+        trinhnguyen@test.com</a>.</p>
+      </footer>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+#home {
+    background: url("../images/travelling.jpg");
+    background-position: center center;
+    height: 110%;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+    font-family: 'Spirax', cursive;
+}
+#view {
+    background: url("../images/boats.jpg");
+    background-position: center center;
+    height: 110%;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+    font-family: 'Spirax', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Spirax', cursive;;
+    font-size: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+#form {
+    text-align: center;
+    font-family: 'Spirax', cursive;;
+    font-size: 20px;
+
+}
+
+#button {
+    text-align: center;
+    font-family:'Spirax', cursive;;
+    font-size: 20px;
+}
+
+#view_message {
+    text-align: center;
+    font-family:'Spirax', cursive;;
+    font-size: 20px;
+}
+
+#footer {
+    text-align: center;
+    font-family:'Spirax', cursive;;
+    font-size: 13px;
+}

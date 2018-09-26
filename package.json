@@ -4,6 +4,11 @@
   "description": "create a website of 2 pages for users to post messages",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
     "pg": "^7.4.3"
   },
   "devDependencies": {},

@@ -1,0 +1,39 @@
+<!<!DOCTYPE html>
+<html>
+
+<head>
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <section id="home">
+            <nav class="topnav">
+                    <ul>
+                        <li><a href="/">Add Message</a></li>
+                        <li><a href="/view">View Message</a></li>
+                    </ul>
+                </nav>
+        <div>
+            <h2>Your Message</h2>
+            <form id="form" action="/" method="POST">
+                Title<br>
+                <textarea rows="2" cols="80" name="title" autocomplete="off"></textarea><br>
+                Message<br>
+                <textarea rows="20" cols="80" name="body" autocomplete="off"></textarea><br>
+                <input id="button" type="submit" value="Submit">
+            </form>
+        </div>
+    </section><br>
+    <footer id="footer">
+        <p>Created by: Trinh Nguyen</p>
+        <p>Contact information: <a href="mailto:trinhnguyen@test.com">
+        trinhnguyen@test.com</a>.</p>
+      </footer>
+</body>
+
+</html>
